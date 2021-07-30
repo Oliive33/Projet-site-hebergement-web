@@ -42,12 +42,12 @@ allCross.forEach((logo) => {
     const currentChoice = this.parentNode.parentNode.childNodes[3];
 
     if (this.src.includes("plus")) {
-      this.src = "./ressources/minus.svg";
+      this.src = "/ressources/minus.svg";
       currentChoice.style.height = height + 30 + "px";
       currentChoice.style.opacity = 1;
       currentChoice.style.padding = "20px 15px";
     } else {
-      this.src = "./ressources/plus.svg";
+      this.src = "/ressources/plus.svg";
       currentChoice.style.height = 0;
       currentChoice.style.opacity = 0;
       currentChoice.style.padding = "0 15px";
